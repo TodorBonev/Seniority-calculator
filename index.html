@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калкулатор трудов стаж</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="left-content">
+        <h1 id="left-contentH1">Трудов стаж за период</h1>
+        <p id="result-left">0 Години 0 Месеца 0 Дни</p> 
+        <div class="form-container"> 
+            <div class="form-question"> 
+                <div class="form-question__title"> 
+                    <span>От дата</span> 
+                </div> 
+                <div class="input-container"> 
+                    <input type="date" id="start-date"> 
+                    <span class="bar"></span> 
+                </div> 
+            </div> 
+            <div class="form-question"> 
+                <div class="form-question__title"> 
+                    <span>До дата</span>
+                </div> 
+                <div class="input-container"> 
+                    <input type="date" id="end-date"> 
+                    <span class="bar"></span> 
+                </div> 
+            </div> 
+            <div class="result" id="result"></div> 
+        </div>
+    </div>
+
+    <!-- Calculate Button for Table Summing -->
+    <button type="button" id="table-calculate-button">изчисли</button>
+
+    <div id="result">
+        
+        <p>Изчислява се общият трудов стаж при различни работодатели. Резултатът се показва във формат години, месеци, дни. Въведете до 10 позиции и натиснете "изчисли".</p>
+        <br>
+        <p><b>Общ трудов стаж:</b></p>
+    </div>
+
+    <h1 id="right-tableH1">Сбор на трудов стаж</h1>
+    <table>
+        <tr>
+            <th>Години</th>
+            <th>Месеци</th>
+            <th>Дни</th>
+        </tr>
+        <tr>
+            <td><input type="number" id="years1" name="years1" class="input" value="0"></td>
+            <td><input type="number" id="months1" name="months1" class="input" value="0"></td>
+            <td><input type="number" id="days1" name="days1" class="input" value="0"></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="years2" name="years2" class="input" value="0"></td>
+            <td><input type="number" id="months2" name="months2" class="input" value="0"></td>
+            <td><input type="number" id="days2" name="days2" class="input" value="0"></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="years3" name="years3" class="input" value="0"></td>
+            <td><input type="number" id="months3" name="months3" class="input" value="0"></td>
+            <td><input type="number" id="days3" name="days3" class="input" value="0"></td>
+        </tr>
+        <tr>
+          <td><input type="number" id="years4" name="years4" class="input" value="0"></td>
+          <td><input type="number" id="months4" name="months4" class="input" value="0"></td>
+          <td><input type="number" id="days4" name="days4" class="input" value="0"></td>
+      </tr>
+      <tr>
+          <td><input type="number" id="years5" name="years5" class="input" value="0"></td>
+          <td><input type="number" id="months5" name="months5" class="input" value="0"></td>
+          <td><input type="number" id="days5" name="days5" class="input" value="0"></td>
+      </tr>
+      <tr>
+          <td><input type="number" id="years6" name="years6" class="input" value="0"></td>
+          <td><input type="number" id="months6" name="months6" class="input" value="0"></td>
+          <td><input type="number" id="days6" name="days6" class="input" value="0"></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="years7" name="years7" class="input" value="0"></td>
+        <td><input type="number" id="months7" name="months7" class="input" value="0"></td>
+        <td><input type="number" id="days7" name="days7" class="input" value="0"></td>
+    </tr>
+    <tr>
+        <td><input type="number" id="years8" name="years8" class="input" value="0"></td>
+        <td><input type="number" id="months8" name="months8" class="input" value="0"></td>
+        <td><input type="number" id="days8" name="days8" class="input" value="0"></td>
+    </tr>
+    <tr>
+        <td><input type="number" id="years9" name="years9" class="input" value="0"></td>
+        <td><input type="number" id="months9" name="months9" class="input" value="0"></td>
+        <td><input type="number" id="days9" name="days9" class="input" value="0"></td>
+    </tr>
+    <tr>
+      <td><input type="number" id="years10" name="years10" class="input" value="0"></td>
+      <td><input type="number" id="months10" name="months10" class="input" value="0"></td>
+      <td><input type="number" id="days10" name="days10" class="input" value="0"></td>
+  </tr>
+  
+        <!-- More rows as needed -->
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

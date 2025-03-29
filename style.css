@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content:initial;
+    padding: 10px;
+}
+.left-content {
+    position: relative;
+    width: 45%;
+    top: 100px;
+    margin-bottom: 400px;
+    
+}
+.right-form {
+    position: relative;
+    width: 45%;
+}
+.form-group {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.small-input {
+    width: 5%;
+    margin-right: 5%;
+}
+button {
+    position:absolute;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 400px;
+    margin-left: 116vh;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.03);
+}
+
+#result {
+    position: fixed;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 116vh;
+    margin-top: 450px;
+}
+
+table, th, td {
+border: 1px solid;
+width: 25%;
+height: 25%;
+text-align: center;
+margin-top: 60px;
+margin-left: 24vh;
+
+}
+input{
+  text-align: center;
+  font-size: 15px;
+}
+#right-tableH1{
+  position: absolute;
+  top: 10px;
+  margin-left: 130vh;
+}
+#result-left{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 140px;
+
+}
+#left-contentH1{
+    position: absolute;
+    margin-top: -110px
+}
+
