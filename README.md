@@ -8,5 +8,4 @@
 * CSS
 * JavaScript
 
-
-Можете да изпробвате демо версия на моят калкулатор за трудов стаж [тук](https://todorbonev.github.io/Seniority-calculator).
+Можете да изпробвате демо версия на този калкулатор за трудов стаж [тук](https://todorbonev.github.io/Seniority-calculator).
